@@ -12,11 +12,11 @@
 
 项目demo请访问：[http://buptvote.duapp.com/](http://buptvote.duapp.com/)
 
-demo中已经关闭投票，不能在进行投票了。
+demo中已经关闭投票，不能再进行投票了。
 
 ![code](screenshot/m_index.png)
 
-![code](screenshot/m_vote.png)
+![code](screenshot/m_vo.png)
 
 ---
 
