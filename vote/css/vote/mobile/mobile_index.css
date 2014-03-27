@@ -1,0 +1,283 @@
+*
+{
+	margin: 0 auto;
+	padding:0;
+}
+
+body
+{
+	background-color: #E3E3E3;
+	background-repeat: repeat;
+	font-family: 'Microsoft Yahei', Tahoma, Arial, Helvetica, Simsun, STHeiti;
+}
+
+.white_text
+{
+	color: #fff;
+}
+
+.red_text
+{
+	color:#F04444;
+}
+
+.blue_text
+{
+	color: #39B6E4;
+}
+
+.green_text
+{
+	color:#A9D039;
+}
+
+.yellow_text
+{
+	color:#FEBA38;
+}
+
+.purple_text
+{
+	color:#A762CC;
+}
+
+.red_background{background-color:#F04444;}
+.blue_background{background-color: #39B6E4;}		    
+.green_background{background-color: #A9D039;}
+.purple_background{background-color: #A762CC;}
+.yellow_background{background-color:#FEBA38;}
+
+#header
+{
+	width: 100%;
+	min-width: 320px;
+	min-height: 100px;
+}
+
+#header_bg
+{
+	background-image: url('../../../images/mobile/header_bg.jpg');
+	width: 320px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+#content
+{
+	width: 100%;
+	min-width: 320px;
+}
+
+#login_box_header
+{
+	background-image: url('../../../images/mobile/line.png');
+	width: 270px;
+	height: 3px;
+	margin: 50px auto 0 auto;
+}
+
+#login_box
+{
+	width: 270px;
+	height: 214px;
+	margin: 0 auto;
+	background-color: #EFEFEF;
+	border-radius: 0 0 5px 5px;
+
+	box-shadow: 0 1px 8px 1px rgba(0,0,0,0.5);
+	-moz-box-shadow:  0 1px 8px 1px rgba(0,0,0,0.5);
+	-webkit-box-shadow:  0 1px 8px 1px rgba(0,0,0,0.5);
+}
+
+#input_username,#input_password,#login_button
+{
+	width: 230px;
+	height: 50px;
+}
+
+#input_username
+{
+	padding: 30px 20px 0 20px;
+}
+
+#input_password
+{
+	padding: 0px 20px 0 20px;
+}
+
+#login_button
+{
+	padding: 10px 20px 0 20px;
+}
+
+.login_input input[type='text']
+{
+	background-color: #D3D3D3;
+    border: 1px solid #D3D3D3;
+    border-radius: 3px 3px 3px 3px;
+	font-family: 'Microsoft Yahei', Tahoma, Arial, Helvetica, Simsun, STHeiti;
+    font-size: 15px;
+	padding: 7px;
+	width: 216px;
+
+    box-shadow: 1px 1px 2px #000 inset;
+	-moz-box-shadow: 1px 1px 2px #000 inset;
+	-webkit-box-shadow: 1px 1px 2px #000 inset;
+}
+
+#login_btn
+{
+	background-color: #2AA3DB;
+	color: #fff;
+	padding: 10px 20px 10px 30px;
+	text-align: center;
+	letter-spacing: 10px;
+	border-radius: 5px;
+}
+
+#vote_header
+{
+	width: 320px;
+	margin: 0 auto;
+	background-color: #F7F7F7;
+}
+
+#vote_header_info
+{
+	width: 320px;
+	height: 25px;
+	padding: 10px 0 7px 0;
+}
+
+#vote_header_username
+{
+	width: 220px;
+	float: left;
+	padding: 1px 0 1px 20px;
+}
+
+#vote_header_logout
+{
+	width: 60px;
+	background-color: black;
+	float: left;
+	text-align: center;
+	color: #fff;
+	padding: 2px 0;
+}
+
+#vote_header_bar
+{
+	background-image: url('../../../images/mobile/line.png');
+	width: 320px;
+	height: 3px;
+	margin: 0 auto;
+}
+
+#vote_content
+{
+	width: 280px;
+	margin: 0 auto;
+	padding: 10px 20px 40px 20px;
+	background-color: #E3E3E1;
+	min-height: 300px;
+}
+
+#vote_search
+{
+	display: block;
+	width: 280px;
+	height: 2em;
+	/*background-color: green;*/
+}
+
+#search_input
+{
+	float:left;
+	/*background-color: yellow;*/
+
+}
+
+#search_input input[type='text']
+{
+	background-color: #F7F7F7;
+    border: 1px solid #D3D3D3;
+    border-radius: 1px 1px 1px 1px;
+    font-family: 'Microsoft Yahei',Tahoma,Arial,Helvetica,Simsun,STHeiti;
+    font-size: 18px;
+    padding: 5px 2px 8px 8px;
+    width: 188px;
+}
+
+#search_btn
+{
+	background-color: #ADADAD;
+    float: left;
+    height: 31px;
+    padding: 7px 0 0;
+    text-align: center;
+    width: 80px;
+}
+
+.vote_box
+{
+	/*background-color: green;*/
+	margin-top:20px;
+	width: 280px;
+	height: 3.8em;
+}
+
+.column
+{
+	overflow: hidden;
+	float: left;
+	display: inline;
+	padding: 0.2em 0;
+}
+
+.vote_box_project
+{
+	background-color: #F4F4F4;
+	width: 200px;
+	height: 3.8em;
+}
+
+.project_no
+{
+	/*background-color: blue;*/
+	width: 90px;
+	height: 1.5em;
+	padding-left:10px;
+	border-bottom: #ACACAC 1px solid;
+}
+
+.project_ticket
+{
+	/*background-color: yellow;*/
+	width: 90px;
+	height: 1.5em;
+	padding-right:10px;
+	text-align: right;
+	border-bottom: #ACACAC 1px solid;
+}
+
+.project_name
+{
+	/*background-color: white;*/
+	width: 180px;
+	height: 1.5em;
+	padding-left:10px;
+	padding-right: 10px; 
+}
+
+.vote_btn
+{
+	width: 80px;
+	height: 3.8em;
+	/*background-color: purple;*/
+	line-height: 3.8em;
+	text-align: center;
+}
+
+
+

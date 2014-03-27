@@ -1,0 +1,18 @@
+body
+{
+  margin: 0;
+  padding:0;
+  background-image: url('../../images/content_bg.png');
+  background-repeat: repeat-x repeat-y ;
+  font-family: 'Microsoft Yahei', Tahoma, Arial, Helvetica, Simsun, STHeiti;
+}
+
+
+.error
+{
+	width: 882px;
+	height: 301px;
+	margin: 10% auto 0 auto;
+	background-image: url('../../images/error.png');
+	background-repeat: no-repeat;
+}

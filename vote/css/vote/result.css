@@ -1,0 +1,26 @@
+*{margin: 0;padding: 0;}
+body{background-image: url('../../images/content_bg.png');font-family: "微软雅黑";}
+.info
+{
+	margin: 100px auto 0 auto;
+	width: 940px;
+	color: #2390D1;
+	text-align: center;
+	font-size: 40px;
+}
+.result
+{
+	background-image: url('../../images/result.png');
+	background-repeat: no-repeat;
+	width: 940px;
+	height: 360px;
+	margin:10px auto;
+}
+.time
+{
+	margin: 0 auto;
+	width: 940px;
+	color: #000;
+	text-align: right;
+	font-size: 20px;
+}

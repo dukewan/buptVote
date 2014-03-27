@@ -1,0 +1,430 @@
+
+
+/*begin of header####################################*/
+#header
+{
+	margin: 0 auto;
+	padding:0;
+	width: 1300px;
+    height: 620px;
+	background-image: url('../../images/header_bg.jpg');
+	background-repeat:no-repeat;
+    background-position:center;
+}
+
+/*begin of top10*/
+#header #top10
+{
+	margin: 0;
+	padding:0;
+	width: 879px;
+	height: 249px;
+	position: relative;
+    left: 53px;
+    top: 310px;
+    float: left;
+    font-weight: bold;
+}
+
+
+#header #top10 #top10_left
+{
+	margin: 0;
+	padding: 20px 0 20px 20px;
+	width: 340px;
+	position: relative;
+	left: 80px;
+	top: 0;
+	float: left;
+}
+
+#header #top10 #top10_right
+{
+	margin: 0;
+	padding: 20px 0 20px 20px;
+	width: 340px;
+	position: relative;
+	left: 135px;
+	top: 0;
+	float: left;
+}
+
+#header #top10 .item
+{
+	margin: 0 0 5px;
+    padding: 0;
+    width: 340px;
+    height: 40px;
+    /*background: green;*/
+    float: left;
+}
+
+#header #top10 .item .item_no
+{
+	margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 20px;
+    /*background: yellow;*/
+    float: left;
+}
+
+#header #top10 .item .item_ticket
+{
+	margin: 0;
+    padding: 0;
+    width: 140px;
+    height: 20px;
+    float: left;
+}
+
+#header #top10 .item .item_name
+{
+	margin: 0;
+    padding: 0;
+    width: 340px;
+    height: 20px;
+    /*background: blue;*/
+    float: left;
+}
+/*end of top10*/
+
+/*begin of login*/
+#login
+{
+	margin: 0;
+	padding: 0;
+	width: 300px;
+	height: 222px;
+	position: relative;
+    left: 90px;
+    top: 347px;
+    float: left;
+	/*background: green;*/
+}
+
+#login #login_form
+{
+	margin: 0;
+	padding: 5px 0;
+	width: 300px;
+	height: 140px;
+	/*background: yellow;*/
+}
+
+
+#login #login_form #student_no
+{
+	margin: 0;
+	padding: 10px 0px;
+	width: 300px;
+	height: 50px;
+	/*background: red;*/
+}
+
+#login #login_form #identity
+{
+	margin: 0;
+	padding: 10px 0;
+	width: 300px;
+	height: 50px;
+	/*background: blue;*/
+}
+
+#login #user_info
+{
+	padding: 30px 11px 30px 50px;
+	line-height: 30px;
+}
+
+#login #user_info .user_name
+{
+	font-size: 1.5em;
+}
+
+#login #user_info .left_ticket
+{
+	color:red;
+	font-size:1.5em;
+}
+
+#login #button_box
+{
+	margin: 0;
+	padding: 5px 0;
+	width: 300px;
+	height: 62px;
+	/*background: white;*/
+	text-align: center;
+}
+
+#login #button_box button
+{
+	letter-spacing: 10px;
+    padding: 10px 30px 10px 43px;
+}
+
+/*end of login*/
+
+/*end of header#######################################*/
+
+
+
+/*begin of content####################################*/
+#content
+{
+	margin: 0 auto;
+	padding:0 0 50px 0;
+	width: 1300px;
+}
+
+#content #search_bar
+{
+	margin: 0 auto;
+	padding:0;
+	height: 100px;
+    width: 1280px;
+    /*background-color: black;*/
+    /*background-image: url("../../images/search_bar.png");*/
+}
+
+
+
+#content #search_bar #school_box
+{
+	height: 87px;
+	width: 930px;
+	/*background-color: green;*/
+	float: left;
+	padding: 0 0 0 10px;
+}
+
+#content #search_bar #school_box #school_all
+{
+    width: 90px;
+	/*background-color: red;*/
+	float: left;
+	margin-top: 22px;
+}
+
+#content #search_bar #school_box #school_left
+{
+   	width: 48px;
+  	/*background-color: orange;*/
+	float: left;
+	/*background-image: url("../../images/school_left2.png");*/
+	height: 58px;
+	/*background-repeat: no-repeat;*/
+	margin-top: 17px;
+}
+
+#content #search_bar #school_box #school_middle
+{
+    width: 715px;
+    /*background-color: blue;*/
+    float: left;
+    margin-top: 22px;
+}
+
+#content #search_bar #school_box #school_right
+{
+    width: 48px;
+    /*background-color: purple;*/
+    float: left;
+    height: 58px;
+	/*background-repeat: no-repeat;*/
+	margin-top: 18px;
+    /*background-image: url("../../images/school_right.png");*/
+
+}
+
+#content #search_bar #search_box
+{
+	height: 87px;
+    width: 330px;
+    float: left;
+}
+
+#content #search_bar #search_box #search_input
+{
+	margin: 17px 0 0 0;
+	width: 220px;
+	height: 70px;
+	float: left;
+}
+
+#content #search_bar #search_box #search_input input[type="text"]
+{
+	width: 200px;
+	float: left;
+}
+
+#content #search_bar #search_box #search_a
+{
+	width: 95px;
+	height: 67px;
+	float: left;
+	padding: 20px 0 0 10px;
+}
+
+#content #left_ticket_box
+{
+	/*background-image: url("../../images/bubble.png");*/
+    height: 87px;
+    width: 87px;
+    position: absolute;
+    right: 0;
+    top: 680px;
+}
+
+#left_ticket_box #left_ticket_box_text
+{
+	color: #fff;
+	font-size: 20px;
+    margin: 33px 0 0 22px;
+}
+
+.content_row
+{
+	margin: 0 auto;
+	padding:0;
+	width: 1300px;
+}
+
+.project_box 
+{
+	height: 340px;
+	width:240px;
+}
+
+.project_logo
+{
+	/*height: 300px;
+	width:240px;*/
+	margin: 14px 14px 4px 14px; 
+
+}
+.project_logo img
+{
+	height: 210px;
+	width:210px;
+}
+
+.project_info
+{
+	/*background-color: green;*/
+    font-size: 15px;
+    height: 50px;
+    margin: 0 15px;
+    width: 210px;
+}
+
+.vote_box
+{
+	/*background-color: green;*/
+    height: 40px;
+    margin: 6px 0 0 13px;
+    width: 190px;
+}
+
+
+
+.vote_box .vote_button
+{
+	float: left;
+	text-align: left;
+	width: 100px;
+	margin: 5px 0 0;
+	overflow: hidden;
+}
+
+.vote_box .vote_button button
+{
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 10px;
+	padding: 6px 12px 6px 25px;
+}
+
+.vote_box .vote_ticket
+{
+	float: left;
+	text-align: right;
+	width: 90px;
+	font-size: 30px;
+	padding-top: 2px;
+}
+/*end of content######################################*/
+
+
+
+/*begin of footer#####################################*/
+#footer
+{
+	margin: 0 auto;
+	padding:0;
+	width: 1300px;
+    height: 225px;
+	background-image: url('../../images/footer_bg.jpg');
+	background-repeat:no-repeat;
+    background-position:center;
+    
+}
+
+#footer .info
+{
+	text-align: center;
+	padding: 100px 0 0 0;
+}
+/*end of footer#######################################*/
+
+
+/*css sprite*/
+.school_right, .school_left2, .school_left, .school_right2, #left_ticket_box, .search_bar, .project_box{
+	background: url('../../images/sprites_nav.png') no-repeat;
+}
+
+.school_right{
+	background-position: 0 -61.33332824707031px ;
+	width: 34px;
+	height: 52px;
+}
+
+.school_left2{
+	background-position: 0 0;
+	width: 34px;
+	height: 52px;
+}
+
+.school_left{
+	background-position: 0 -123.66667175292969px ;
+	width: 34px;
+	height: 52px;
+}
+
+.school_right2{
+	background-position: 0 -181.6666717529297px ;
+	width: 34px;
+	height: 52px;
+}
+
+#left_ticket_box{
+	background-position: 0 -247.6666717529297px ;
+	width: 87px;
+	height: 87px;
+}
+
+.search_bar{
+	background-position: 0 -349px ;
+	width: 1280px;
+	height: 101px;
+}
+
+.project_box{
+	background-position: -201px 0;
+	width: 240px;
+	height: 340px;
+}
+
+/*end of css sprite*/
+

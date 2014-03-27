@@ -1,0 +1,92 @@
+.grid_1 { width:240px; }
+.grid_2 { width:500px; }
+.grid_3 { width:760px; }
+.grid_4 { width:1020px; }
+.grid_5 { width:1280px; }
+
+.column {
+  float: left;
+  margin: 10px;
+  overflow: hidden;
+  display: inline;
+}
+.row {
+  width: 1300px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+
+.
+{
+	margin: 0 auto;
+	padding:0;
+}
+
+
+body
+{
+	margin: 0;
+	padding:0;
+	background-image: url('../../images/content_bg.png');
+	background-repeat: repeat-x repeat-y ;
+	font-family: 'Microsoft Yahei', Tahoma, Arial, Helvetica, Simsun, STHeiti;
+
+}
+
+.green
+{
+	color: #84C340;
+}
+
+.yellow
+{
+	color: #F7C315;
+}
+
+.red
+{
+	color: #DA2826;
+}
+
+.purple
+{
+	color: #964679;
+}
+
+.blue
+{
+	color: #2390D1;
+}
+
+input[type='text']
+{
+	background-color: #D3D3D3;
+    border: 1px solid #D3D3D3;
+    border-radius: 3px 3px 3px 3px;
+	font-family: 'Microsoft Yahei', Tahoma, Arial, Helvetica, Simsun, STHeiti;
+    font-size: 20px;
+    padding: 10px;
+    width: 275px;
+
+    box-shadow: 1px 1px 2px #000 inset;
+	-moz-box-shadow: 1px 1px 2px #000 inset;
+	-webkit-box-shadow: 1px 1px 2px #000 inset;
+}
+
+button
+{
+	font-family: 'Microsoft Yahei', Tahoma, Arial, Helvetica, Simsun, STHeiti;
+}
+
+a:link,a:visited
+{
+	color:#000;
+	text-decoration: none;
+}
+
+a:hover,a:active
+{
+	color:#2390D1;
+	text-decoration: none;
+}
