@@ -291,7 +291,7 @@
 	width: 1300px;
 }
 
-.project_box 
+.project_box
 {
 	height: 340px;
 	width:240px;
@@ -301,7 +301,7 @@
 {
 	/*height: 300px;
 	width:240px;*/
-	margin: 14px 14px 4px 14px; 
+	margin: 14px 14px 4px 14px;
 
 }
 .project_logo img
@@ -342,7 +342,7 @@
 {
 	font-size: 18px;
 	font-weight: bold;
-	letter-spacing: 10px;
+	letter-spacing: 5px;
 	padding: 6px 12px 6px 25px;
 }
 
@@ -368,7 +368,7 @@
 	background-image: url('../../images/footer_bg.jpg');
 	background-repeat:no-repeat;
     background-position:center;
-    
+
 }
 
 #footer .info
@@ -427,4 +427,3 @@
 }
 
 /*end of css sprite*/
-

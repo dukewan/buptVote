@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/vote/vote_pack.min.css">
     <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/vote/button.min.css">
     <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/plugins/fancybox/source/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/vote/linkBar.css">
+    <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/plugins/tipsy/tipsy.css">
 	<script type="text/javascript">
 	  var _gaq = _gaq || [];
 	  _gaq.push(['_setAccount', 'UA-40802471-1']);
@@ -37,6 +39,22 @@
 </head>
 <body>
 	<?php echo $content;?>
+    <div id="linkBar">
+        <div class="content">
+            <div class="logo" data-color="RGB(252, 106, 151)" data-title="<p class='logoTitle'>北邮创新大本营<br/>极客聚集地</p><img src='<?php echo Yii::app()->request->baseUrl; ?>/images/qrcode_inov.jpg' class='qrcode'>">
+                <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/inov.png">
+            </div>
+            <div class="logo" data-color="rgb(23, 168, 224)" data-title="<p class='logoTitle'>北邮自习室查询<br/>自习室不难找!</p><img src='<?php echo Yii::app()->request->baseUrl; ?>/images/qrcode_buptclass.jpg' class='qrcode'>">
+                <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/buptclass.png">
+            </div>
+            <div class="logo" data-color="rgb(176, 73, 245)" data-title="<p class='logoTitle'>北邮公众平台<br/>精彩的生活服务</p><img src='<?php echo Yii::app()->request->baseUrl; ?>/images/qrcode_buptinfo.jpg' class='qrcode'>">
+                <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/buptinfo.png">
+            </div>
+            <div class="logo" data-color="rgb(104, 76, 68)" data-title="<p class='logoTitle'>TA的故事<br/>北邮同学的访谈录</p><img src='<?php echo Yii::app()->request->baseUrl; ?>/images/qrcode_theirstory.jpg' class='qrcode'>">
+                <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/theirstory.png">
+            </div>
+        </div>
+    </div>
 	<div id="footer">
 		<div class="info">
 		邮箱：office-jiaowu@bupt.edu.cn；传真：010-62285134；电话：010-62282711；地址：北京邮电大学教一楼321； 邮编：100876 <br/>
@@ -48,5 +66,7 @@
 	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/plugins/fancybox/lib/jquery.mousewheel-3.0.6.pack.js "></script>
     <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/plugins/fancybox/source/jquery.fancybox.pack.js "></script>
     <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/vote.min.js"></script>
+    <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/plugins/tipsy/jquery.tipsy.js "></script>
+    <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/linkBar.js "></script>
 </body>
 </html>

@@ -3631,3 +3631,30 @@ Stack trace:
 REQUEST_URI=/buptvote/10/vote/index.php/vote/create
 HTTP_REFERER=http://localhost/buptvote/10/vote/index.php
 ---
+2014/04/04 18:03:43 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection.connectionString cannot be empty.' in /Users/1MHz/Documents/web/github/buptvote/framework/db/CDbConnection.php:370
+Stack trace:
+#0 /Users/1MHz/Documents/web/github/buptvote/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /Users/1MHz/Documents/web/github/buptvote/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /Users/1MHz/Documents/web/github/buptvote/framework/base/CModule.php(388): CDbConnection->init()
+#3 /Users/1MHz/Documents/web/github/buptvote/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /Users/1MHz/Documents/web/github/buptvote/framework/db/ar/CActiveRecord.php(615): CApplication->getDb()
+#5 /Users/1MHz/Documents/web/github/buptvote/framework/db/ar/CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 /Users/1MHz/Documents/web/github/buptvote/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Project))
+#7 /Users/1MHz/Documents/web/github/buptvote/vote/protected/models/Project.php(25): CActiveRecord::model('Project')
+#8 /Users/1MHz/Documents/web/github/buptvote/vote/protected/controllers/SiteController.php(74): Project::model()
+#9 /Users/1MHz/Documents/web/github/buptvote/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#10 /Users/1MHz/Documents/web/github/buptvote/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /Users/1MHz/Documents/web/github/buptvote/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /Users/1MHz/Documents/web/github/buptvote/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /Users/1MHz/Documents/web/github/buptvote/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 /Users/1MHz/Documents/web/github/buptvote/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 /Users/1MHz/Documents/web/github/buptvote/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /Users/1MHz/Documents/web/github/buptvote/framework/web/CController.php(292): CFilterChain->run()
+#17 /Users/1MHz/Documents/web/github/buptvote/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /Users/1MHz/Documents/web/github/buptvote/framework/web/CWebApplication.php(318): CController->run('')
+#19 /Users/1MHz/Documents/web/github/buptvote/framework/web/CWebApplication.php(177): CWebApplication->runController('')
+#20 /Users/1MHz/Documents/web/github/buptvote/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /Users/1MHz/Documents/web/github/buptvote/vote/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/github/buptvote/vote/index.php
+---

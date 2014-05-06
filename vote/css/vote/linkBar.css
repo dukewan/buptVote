@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+#linkBar {
+  width: 1300px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: rgb(244, 244, 244);
+  -webkit-transition: background-color 400ms;
+  -moz-transition: background-color 00ms;
+  -ms-transition: background-color 400ms;
+  -o-transition: background-color 400ms;
+  transition: background-color 400ms;
+  border: none; }
+  #linkBar .content {
+    width: 820px;
+    margin: 0 auto; }
+    #linkBar .content .logo {
+      width: 200px;
+      text-align: center;
+      display: inline-block;
+      font-size: 0;
+      -webkit-transition: background-color 400ms;
+      -moz-transition: background-color 400ms;
+      -ms-transition: background-color 400ms;
+      -o-transition: background-color 400ms;
+      transition: background-color 400ms; }
+      #linkBar .content .logo img {
+        width: 80px;
+        height: 80px;
+        padding: 10px; }
+
+.logoTitle {
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  padding: 5px; }
+
+.qrcode {
+  width: 180px;
+  height: 180px;
+  padding: 5px; }
